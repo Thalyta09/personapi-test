@@ -1,6 +1,6 @@
 ## Digital Innovation: Expert Class - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot
 
-Projeto desenvolvido durante o curso Expert cClass - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot.
+Projeto desenvolvido durante o curso Expert Class - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot.
 Curso gratuito disponível na plataforma Digital Innovation One - DIO.
 
 
