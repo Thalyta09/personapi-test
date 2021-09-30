@@ -1,4 +1,4 @@
-package com.tconrado.personapi.dto;
+package com.tconrado.personapi.dto.response;
 
 import lombok.Builder;
 import lombok.Data;
