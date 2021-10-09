@@ -30,7 +30,8 @@ public class PersonApiApplication {
                         .description(appDescription)
                         .termsOfService("http://swagger.io/terms/")
                         .license(new License().name("Apache 2.0").url("http://springdoc.org")))
-                .servers(Collections.singletonList(new Server().url("http://localhost:8080").description("Base URL")))
+                .addServersItem(new Server().url("http://localhost:8080").description("Base URL"))
+                .addServersItem(new Server().url("https://personapi-test.herokuapp.com/").description("Heroku URL"))
                 .externalDocs(new ExternalDocumentation().description("Learn more at").url("http://swagger.io"));
     }
 
