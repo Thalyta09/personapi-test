@@ -13,6 +13,9 @@ Foram abordados os seguintes tópicos:
 - Desenvolvimento de testes unitários para validação das funcionalidades
 - Implantação do sistema na nuvem através do Heroku
 
+Atualizações:
+- Data 09/10/2021: Adicionei a dependência Open API ao projeto para gerar a documentação da API;
+
 
 São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
