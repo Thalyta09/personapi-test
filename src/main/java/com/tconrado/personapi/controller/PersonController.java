@@ -30,7 +30,7 @@ public class PersonController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "201", description = "Created people",
                     content = {@Content(mediaType = "application/json",
-                            schema = @Schema(implementation = PersonDTO.class)) })
+                            schema = @Schema(implementation = MessageResponseDTO.class)) })
     })
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
@@ -66,7 +66,7 @@ public class PersonController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Updated people",
                     content = {@Content(mediaType = "application/json",
-                            schema = @Schema(implementation = PersonDTO.class)) }),
+                            schema = @Schema(implementation = MessageResponseDTO.class)) }),
             @ApiResponse(responseCode = "404", description = "People not found",
                     content = @Content)
     })
